@@ -1,17 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
-</style>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>CarsCarsCars</title>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-<a href="index.html">focking kill me</a>
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		<!-- Navbar styles -->
+		<link rel="stylesheet" href=/style.css>
+	</head>
+	<h1>CarsCarsCars</h1>
+	<h2>Brands</h2>
+	<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href=/index>Home<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=about.html>About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=brandindex.html>Brands</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=modelindex.html>Models</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=classindex.html>Classes</a>
+			</li>
+		</ul>
+	</nav>
 
-</body>
+	<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+		<thead>
+			<tr>
+				<th>Logo</th>
+				<th>Name</th>
+				<th>Country of Origin</th>
+				<th>Founded</th>
+				<th>2016 Revenue (USD)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row"><a href=http://www.ford.com><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ford_Motor_Company_Logo.svg/304px-Ford_Motor_Company_Logo.svg.png style="max-width:300px; max-height:120px"></img></a></th>
+				<td><a href="brandFordDetails.html">Ford Motor Company</a></td>
+				<td>United States</td>
+				<td>June 16, 1903</td>
+				<td>$151.8 billion</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href=http://www.bmwusa.com><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/1015px-BMW.svg.png style="max-width:300px; max-height:120px"></img></a></th>
+					<td><a href="brandBMWDetails.html">BMW</a></td>
+					<td>Germany</td>
+					<td>March 7, 1916</td>
+					<td>$103.8 billion</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href=http://www.tesla.com><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/279px-Tesla_Motors.svg.png style="max-width:300px; max-height:120px"></img></a></th>
+				<td><a href="brandTeslaDetails.html">Tesla, Inc.</a></td>
+				<td>United States</td>
+				<td>July 1, 2003</td>
+				<td>$7 billion</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+
 </html>
