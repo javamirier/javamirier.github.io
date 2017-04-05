@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basic Tablesorter Demo</title>
+
+	<!-- Demo styling -->
+	<link href="docs/css/jq.css" rel="stylesheet">
+
+	<!-- jQuery: required (tablesorter works with jQuery 1.2.3+) -->
+	<script src="docs/js/jquery-1.2.6.min.js"></script>
+
+	<!-- Pick a theme, load the plugin & initialize plugin -->
+	<link href="dist/css/theme.default.min.css" rel="stylesheet">
+	<script src="dist/js/jquery.tablesorter.min.js"></script>
+	<script src="dist/js/jquery.tablesorter.widgets.min.js"></script>
+	<script>
+	$(function(){
+		$('table').tablesorter({
+			widgets        : ['zebra', 'columns'],
+			usNumberFormat : false,
+			sortReset      : true,
+			sortRestart    : true
+		});
+	});
+	</script>
+
+</head>
+<body>
+<div class="demo">
+
+	<table class="tablesorter">
+		<thead>
+			<tr>
+				<th>Logo</th>
+				<th>Name</th>
+				<th>Country of Origin</th>
+				<th>Founded</th>
+				<th>2016 Revenue (USD)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row"><a href=http://www.ford.com><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ford_Motor_Company_Logo.svg/304px-Ford_Motor_Company_Logo.svg.png style="max-width:300px; max-height:120px"></img></a></th>
+				<td><a href="brandFordDetails.html">Ford Motor Company</a></td>
+				<td>United States</td>
+				<td>June 16, 1903</td>
+				<td>$151.8 billion</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href=http://www.bmwusa.com><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/1015px-BMW.svg.png style="max-width:300px; max-height:120px"></img></a></th>
+					<td><a href="brandBMWDetails.html">BMW</a></td>
+					<td>Germany</td>
+					<td>March 7, 1916</td>
+					<td>$103.8 billion</td>
+			</tr>
+			<tr>
+				<th scope="row"><a href=https://www.nissanusa.com><img src=http://www.car-brand-names.com/wp-content/uploads/2015/08/Nissan-logo.png style="max-width:300px; max-height:120px"></img></a></th>
+				<td><a href="brandNissanDetails.html">Nissan Motor Company</a></td>
+				<td>Japan</td>
+				<td>December 26, 1933</td>
+				<td>$102.5 billion</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+</div>
+</body></html>
