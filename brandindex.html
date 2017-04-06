@@ -15,6 +15,23 @@
 	    
 		<!-- Navbar styles -->
 		<link rel="stylesheet" href=details.css>
+        <!-- jQuery: required (tablesorter works with jQuery 1.2.3+) -->
+        <script src="docs/js/jquery-1.2.6.min.js"></script>
+
+        <!-- Pick a theme, load the plugin & initialize plugin -->
+        <link href="dist/css/theme.default.min.css" rel="stylesheet">
+        <script src="dist/js/jquery.tablesorter.min.js"></script>
+        <script src="dist/js/jquery.tablesorter.widgets.min.js"></script>
+        <script>
+        $(function(){
+            $('table').tablesorter({
+                widgets        : ['zebra', 'columns'],
+                usNumberFormat : false,
+                sortReset      : true,
+                sortRestart    : true
+            });
+        });
+        </script>
 	</head>
 
 	<nav class="navbar navbar-light bg-faded">
