@@ -15,7 +15,21 @@
 	    
 		<!-- Navbar styles -->
 		<link rel="stylesheet" href=details.css>
-	</head>
+        		<!-- Navbar styles -->
+		<link rel="stylesheet" href=details.css>
+        <!-- jQuery: required (tablesorter works with jQuery 1.2.3+) -->
+        <script src="docs/js/jquery-1.2.6.min.js"></script>
+
+        <!-- Pick a theme, load the plugin & initialize plugin -->
+        <link href="dist/css/theme.default.min.css" rel="stylesheet">
+        <script src="dist/js/jquery.tablesorter.min.js"></script>
+        <script src="dist/js/jquery.tablesorter.widgets.min.js"></script>
+        <script type="text/javascript" src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">   
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+		<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	</head> 
 	<nav class="navbar navbar-light bg-faded">
 			<a class="navbar-brand" href="#"></a>
 		<ul class="nav navbar-nav">
@@ -63,14 +77,52 @@
 				<td>5 Doors</td>
 				<td>Good</td>
 			</tr>
-                <th scope="row"><a href=classSUV.html><img src=SUV.png style="max-width:294px; max-height:165px"></img></hr><p align="center">SUV</p></a></th>
-				<td><a href="modelBMWX1.html">BMW X1</a></br><a href="modelFordExplorer.html">Ford Explorer</a><br/><a href="modelNissanArmada.html">Nissan Armada</a></td>
+			<tr>
+                <th scope="row"><a href=classPickup.html><img src=https://www.goshare.co/public/front/images/vehicleType/SmallPickupTruck.png style="max-width:294px; max-height:165px"></img></hr><p align="center">Pickup</p></a></th>
+				<td>
+					<a href="modelChevroletSilverado.html">Chevrolet Silverado</a></br>
+					<a href="modelMBG63.html">Mercedes-Benz G63 AMG 6x6</a><br/>
+					<a href="modelVWAmarok.html">Volkswagen Amarok</a>
+				</td>
 				<td>4-8 People</td>
 				<td>5 Doors</td>
 				<td>Exceptional</td>
 			</tr>
+			<tr>
+                <th scope="row"><a href=classSUV.html><img src=SUV.png style="max-width:294px; max-height:165px"></img></hr><p align="center">SUV</p></a></th>
+				<td><a href="modelBMWX1.html">BMW X1</a></br><a href="modelFordExplorer.html">Ford Explorer</a><br/><a href="modelNissanArmada.html">Nissan Armada</a></td>
+				<td>4-5 People</td>
+				<td>2-4 Doors</td>
+				<td>Exceptional</td>
+			</tr>
+			<tr>
+                <th scope="row"><a href=classSedan.html><img src=http://www.vw.co.za/content/medialib/vwd4/za/showroom/polo_sedan/model-landing-page/_jcr_content/renditions/rendition_0.file/84884_vw_polo_new-polo-sedan_v1-conceptline_960-485px_rgb.png style="max-width:294px; max-height:165px"></img></hr><p align="center">Sedan</p></a></th>
+				<td>
+					<a href="modelChevroletCruze.html">Chevrolet Cruze</a></br>
+					<a href="modelMBCClass.html">Mercedes-Benz C-Class Sedan</a><br/>
+					<a href="modelVWJetta.html">Volkswagen Jetta</a>
+				</td>
+				<td>4-5 People</td>
+				<td>5 Doors</td>
+				<td>Good</td>
+			</tr>
+			<tr>
+                <th scope="row"><a href=classVan.html><img src=http://assets.mbvans.com/v1/dist/images/sprinter/brand/brand_sprinter-crew.png style="max-width:294px; max-height:165px"></img></hr><p align="center">Van</p></a></th>
+				<td>
+					<a href="modelChevroletExpress.html">Chevrolet Express</a></br>
+					<a href="modelMBSprinter.html">Mercedes-Benz Sprinter</a><br/>
+					<a href="modelVWCrafter.html">Volkswagen Crafter</a>
+				</td>
+				<td>2-12 People</td>
+				<td>3-5 Doors</td>
+				<td>Exceptional</td>
+			</tr>
 		</tbody>
 		</table>
-	</div>
-
+	</div>	
+	<script>
+	$(document).ready(function(){
+	    $('#table').dataTable();
+	});
+	</script>
 </html>

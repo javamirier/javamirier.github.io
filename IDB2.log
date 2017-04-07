@@ -1,0 +1,559 @@
+commit eb8e5129cc19e92b5ed9eafead7ddc04980ab65d
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Apr 6 20:17:40 2017 -0500
+
+    Update About page
+
+commit f693db93984603bdcbf93e675a6ae10486dbb492
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 20:04:57 2017 -0500
+
+    Update all index pages with bootstrap pagination/sort/search and add tailored js file
+
+commit b8f00fc4ffb985f3ba588e19e07095c17a1c4985
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 18:04:46 2017 -0500
+
+    Details pages for new classes; typo fix on classindex.html
+
+commit 1fb49987ed8d54fb56355c44abcfa3db63cd8bcd
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 17:53:41 2017 -0500
+
+    Updated class index to include Pickup, Sedan, Van
+
+commit 0161d80bc1d7293e62ec5893e5caa69357f84823
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 17:07:48 2017 -0500
+
+    Details pages for all VW cars
+
+commit eb6b4bea11aab9088de3dd1a4c2e122996dd5ca3
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 16:56:14 2017 -0500
+
+    Model details for all MB cars
+
+commit 4b9e49a9a5453c4f163265857f6a515dc60ea711
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 16:45:18 2017 -0500
+
+    Model details pages for all Chevy cars
+
+commit 2ae823cee16fadeccf0282259e5a51a0a9ef4bbc
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 16:44:44 2017 -0500
+
+    Fixed tab titles for VW, MB, Chevy details pages
+
+commit d822f5f19c005b9824f7bf1beb90f3edafd4cfcf
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 16:33:48 2017 -0500
+
+    Updated model index with VW, MB, Chevy models; link fix on VWDetails
+
+commit 8dec0dd69f253a2bccd862a36fc4fd18f4158b8d
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 16:20:54 2017 -0500
+
+    Added details pages for Chevy, VW, Mercedes
+
+commit 5e71a2bd72161489670dfa5f9c35b5138f9408fb
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Apr 6 16:08:21 2017 -0500
+
+    Updated brandIndex.html with new brands
+
+commit 905eaf036862a04af192afd44eb6538a8dda5e77
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Apr 6 13:15:28 2017 -0500
+
+    Final final about page
+
+commit 8d95fdc590ef78dfb5ef7bf3d18b66d807effd0e
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Apr 6 13:12:11 2017 -0500
+
+    Final About page
+
+commit f65644bc6e4abff75966e841acd1c24c42c4d917
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Wed Apr 5 19:09:41 2017 -0500
+
+    all indexes updated with jquery/js
+
+commit 35157b684880142ef25d4e3e0cdee62020374a4f
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Wed Apr 5 18:51:42 2017 -0500
+
+    Removed JS banner
+
+commit 0e020cae3dd96cfc3ab78cd609dfd95082db8192
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Wed Apr 5 18:43:20 2017 -0500
+
+    jquery js integration push
+
+commit cf5099105bd3ae2c24a611bea7d02af1ae5f68d1
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 20:04:50 2017 -0500
+
+    Final commit - # of commits and log
+
+commit 3dd146d445c1c257725b19cb3b350f27fa8ef3ca
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 18:09:16 2017 -0500
+
+    fixed a few screwwy css references
+
+commit 7d9b729f41404e92e3295edf5e7f043660e65103
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 18:06:24 2017 -0500
+
+    added a video to the about page
+
+commit 200acd9d1dfb03e30e47ce779fe1f1c35b44ecac
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 16:51:40 2017 -0500
+
+    Final About page
+
+commit 5114586d31965128cfeae37fa63f4d34f1103c28
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 16:37:55 2017 -0500
+
+    Update navbar on splash page
+
+commit 2dcc66f9ebe89c2a6a681ba9ffa19b1566eaf0f3
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 16:28:49 2017 -0500
+
+    Added Leon to About page
+
+commit f2ac1c886d233c1fe48c7ddbaa44c96ac72c20ac
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 16:26:52 2017 -0500
+
+    Updated class pages with model links and updated info
+
+commit 1c0c06acd4f4c0bf4637528ccb4e0e2926b7be63
+Merge: 5c528ce 87a1f73
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 16:05:09 2017 -0500
+
+    Merge branch 'dev' of https://github.com/javamirier/javamirier.github.io into dev
+
+commit 5c528ce93f6732983e2efaf5917c2b86846db756
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 16:04:54 2017 -0500
+
+    MODELS, NOT MODEL
+
+commit 87a1f73a7aa8202463f674e2e6f651cf43f7452a
+Merge: 99c9796 13d562c
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 16:01:15 2017 -0500
+
+    Merge pull request #21 from javamirier/master
+    
+    pls model index
+
+commit 99c9796cd7293952dcd042db76e15443bde3ab8f
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 15:59:12 2017 -0500
+
+    Removed ugly h1 header from modelindex.html
+
+commit db99441ec6a63d3e9e8022ff48c65993d25deaa9
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 15:55:03 2017 -0500
+
+    Added correct tab titles for all pages
+
+commit 13d562c03d0cc39f68a2f802af07761bcce5302d
+Merge: 5ae8d20 bf99ec1
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 15:51:02 2017 -0500
+
+    Merge pull request #20 from javamirier/dev - Nicks shitload of commits and my 1, more important commit
+    
+    Dev - fixed css
+
+commit bf99ec1cd69c283661845c6a59186b43cd565f77
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 15:49:07 2017 -0500
+
+    removed stupid bg style ref
+
+commit fcab308672b684cbaac5b8d62f1d91c6af668e21
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 14:55:49 2017 -0500
+
+    Updated navbar for all Nissan models
+
+commit ee72511e9850ad2f89a1e8f08d9eecd60c77d1e9
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 14:45:51 2017 -0500
+
+    Fixed Focus link on modelindex.html; updated images on Explorer and Focus pages so they match the modelindex
+
+commit edfb15d05a28acf705e86a3dd0b0e44a41799199
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 14:40:05 2017 -0500
+
+    The images for the Ford Explorer and Focus no longer make me want to claw my eyes out
+
+commit 37c95ff92aa9582f722a605a04f0931a54b7dad5
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 14:35:27 2017 -0500
+
+    Fixed navbar and realigned images
+
+commit f5d440e1b0a03b7fe8ee4e4685bc3ce0d2aa2d15
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 13:46:16 2017 -0500
+
+    Almost Final ModelIndex - pic adjustment needed
+
+commit 6f3fd0c5dfa6e1a77cc3ed8e0bd1b601d6881b66
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:36:16 2017 -0500
+
+    Fixed navbar and tab title for BMW and Ford model pages
+
+commit bf1d2e8086212dcc798401f37213955389bc670f
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:30:40 2017 -0500
+
+    Add appropriate tab names to all brand pages
+
+commit 0f497ecea84be90d391bbe1e683157b0df9f25a7
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:25:56 2017 -0500
+
+    Fixed navbar on all brand pages
+
+commit be3b58ee20a13a5fe25890e722fe7be5405486c4
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:24:39 2017 -0500
+
+    Fixed brandindex.html navbar and removed ugly header
+
+commit 91f418352a1520ef3d757f771dc2869da71d506d
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:22:06 2017 -0500
+
+    I promise the navbar is actually fixed now
+
+commit ca8a8244a4e10f340f7e1b6cd080a00fc09b557d
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 13:20:13 2017 -0500
+
+    Cleaned up BrandIndex, Started ModelIndex
+
+commit e4ac30760e670255dc85632b8829b2508f88b19b
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:18:41 2017 -0500
+
+    Navbar wasn't fixed yet, as it turns out. Now it is.
+
+commit 4dc57a45d4ad2deabac89d27ff61f6da6083f77d
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:17:30 2017 -0500
+
+    Fix navbar on classindex
+
+commit b4a978a7dea42f7f01778032bca52b12dfd7905f
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:16:21 2017 -0500
+
+    Add information to all class pages
+
+commit e6780777b629faa604dc136a9fbe20ded84561b2
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 13:05:35 2017 -0500
+
+    Finished classCoupe.html
+
+commit 00d989bbeba3d2ee0a5bdbc30b611fcf2fba4851
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 12:50:10 2017 -0500
+
+    Replace Tesla links with Nissan links on classindex.html; alphabetize brand names in 'Producing Brands' column
+
+commit 09e39c654479a657b07bc860bb82c4a17834088c
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 12:43:35 2017 -0500
+
+    Source links added to all BMW and Ford model pages
+
+commit b09947568f8b09b5b245ed94e4331e3c3027e634
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 12:38:42 2017 -0500
+
+    Add source links to all Nissan model pages
+
+commit 96dc63816d0a29ec97ce7be0016d66146fa694bf
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 12:36:08 2017 -0500
+
+    Added source links below descriptions on brand details pages
+
+commit 2310d90ce173247ae7e785194b9a2ac7bf1a76c5
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 05:43:20 2017 -0500
+
+    Actually finished Versa Note page. Hopefully.
+
+commit 86bdddbb88ce51bd6d17bedb6f72f4b7bda409ae
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 05:37:26 2017 -0500
+
+    Finished modelNissanVersa.html
+
+commit c87ef95094a75129cc0b45e15bd6ebfe355623ea
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 05:32:16 2017 -0500
+
+    Changed link text for Versa to Versa Note
+
+commit 7aad4454c20200be2024543992250d517fd19450
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 05:28:24 2017 -0500
+
+    Finished GT-R details page; changed link text in Nissan details to GT-R
+
+commit 2056e32eadba410ba0e4c600ad0a477cc51ae5c6
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 05:23:16 2017 -0500
+
+    Finished brandNissanDetails and modelNissanArmada
+
+commit 252a4e99087105e26a76a7f1865bc57f219960e4
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 05:11:45 2017 -0500
+
+    Switch from Tesla to Nissan
+
+commit c62fe0292d2c14f56b4a416dccd3f1d95aacf188
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 04:50:39 2017 -0500
+
+    Completed modelTeslaModelX.html
+
+commit 0efe0c5c508a2415233ce393fcb8480eebf966a2
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 04:44:11 2017 -0500
+
+    Rename M3 document and references to M4; the M3 is a saloon and the M4 is its coupe counterpart.
+
+commit fddf7865ef9accf1d13fd3375eac213257993a8a
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 04:41:59 2017 -0500
+
+    Add BMW M3 and X1 details pages
+
+commit 5ae8d20d3a788fb34b036d7deb9895efe4f32b63
+Merge: 4fbf4d7 592ac81
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 03:42:01 2017 -0500
+
+    Merge pull request #6 from javamirier/dev
+    
+    another master merge to ensure live functioning
+
+commit 592ac818569f619f817aff9803b3a9f556932455
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 03:40:53 2017 -0500
+
+    Add finished modelBMWI3.html
+
+commit 7b13660a4a31a643a78b46c831f4843b9269385c
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 03:40:03 2017 -0500
+
+    Update Statistics and Tools
+
+commit ff22c5476e0ef50a9aa9eb2395169ffb2ea43ad0
+Merge: cc9fdfb 43c283c
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 03:35:12 2017 -0500
+
+    Merge branch 'dev' of https://github.com/javamirier/javamirier.github.io into dev
+
+commit cc9fdfbb52f4ce02c09c0a8f50626dcab8fdd2d8
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 03:35:00 2017 -0500
+
+    updated class index with png's and links to their own pages
+
+commit 43c283c7e953983fcb5e65a35906e4391d028262
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 03:24:01 2017 -0500
+
+    Completed modelFordMustang.html
+
+commit d706eb9fb45e4370952b2e213883d5bffea3ec0d
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 03:12:17 2017 -0500
+
+    Fix typo in brandFordDetails; add modelFocusDetails
+
+commit 5e10861c20f30f9061fdade4240fa11cd252d3ad
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 03:02:16 2017 -0500
+
+    Add h3 to details.css; template for model details made
+
+commit 4fbf4d7918d153c3c244b92b507e5c1b1beb8335
+Merge: e50f6e9 f116457
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 02:31:56 2017 -0500
+
+    Merge pull request #5 from javamirier/dev
+    
+    testing website capabilities - new index, about 2/3 way done
+
+commit f11645741a38dc5ca843571c451e53838f0bdee2
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Thu Mar 23 02:30:33 2017 -0500
+
+    settled on a splash page, simple tags at the top with nav buttons. RIP hopes and dreams
+
+commit 0e119a292ddfc65b42f0d6eb6d87248c62a7d9cc
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 02:17:58 2017 -0500
+
+    Changed brandDetails.css to details.css
+
+commit 7b521c0cef8cfde800555564aa2f3ba25eacfdb8
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 02:02:41 2017 -0500
+
+    Finished brand details files and updated brand index to say Tesla, Inc. rather than Tesla
+
+commit b2472fd05b479d608c6c8e906c088e0c17101ffc
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 01:33:52 2017 -0500
+
+    Finished brand details template and Ford page
+
+commit 258c1f98aa70a08f9202d5de71aa66a5f0d6e3a8
+Author: Ahmed Khan <aykhan96@gmail.com>
+Date:   Thu Mar 23 01:25:32 2017 -0500
+
+    Fleshing out about page
+
+commit 2b4243b763eb76a44bc16dd3b6da7e8f4db8e185
+Author: Unknown <ngc375@utexas.edu>
+Date:   Thu Mar 23 01:24:31 2017 -0500
+
+    CSS changes and basic brand details page
+
+commit 7ea951606124334df20d766272dfa95dd1e862a2
+Author: Unknown <ngc375@utexas.edu>
+Date:   Wed Mar 22 23:57:47 2017 -0500
+
+    Cleaned up files; added basics to brandFordDetails
+
+commit fab401d38af5a0c74f92b40c7a46256aa77ddd5e
+Author: Unknown <ngc375@utexas.edu>
+Date:   Wed Mar 22 23:53:44 2017 -0500
+
+    Make whitespace consistent and expressive
+
+commit 4d97a3af0cc73321397da144a407e9425767ff37
+Author: Unknown <ngc375@utexas.edu>
+Date:   Wed Mar 22 22:54:14 2017 -0500
+
+    Add table container and row template with initial data
+
+commit 1b0d7ddb0c44764c9817c1ad5bfcf2b723803b06
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 22:39:59 2017 -0500
+
+    the pages
+
+commit e50f6e9e619c03260ba00db3d4ba40e338f09561
+Merge: ea5847b b492b11
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 21:32:28 2017 -0500
+
+    Merge pull request #4 from javamirier/dev
+    
+    index and bootstrap
+
+commit b492b11309566a9bd269552bc75acd7a8a9ade36
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 21:30:29 2017 -0500
+
+    index and bootstrap
+
+commit ea5847b141ebdccee78f7ff9a2d0024a5679a895
+Merge: c67f633 7eedbf2
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 21:29:38 2017 -0500
+
+    Merge pull request #3 from javamirier/dev
+    
+    Added basic brands index file
+
+commit 7eedbf2cfb8f57fb131c3146c6b14e16146c0469
+Author: Unknown <ngc375@utexas.edu>
+Date:   Wed Mar 22 21:17:52 2017 -0500
+
+    Added basic brands index file
+
+commit c67f633d2aa23696716999112211f224fa7913f9
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 13:37:23 2017 -0500
+
+    Set theme jekyll-theme-slate
+
+commit a0fb6fcb3bdd28b1aff464d79ce8ba328caeb229
+Merge: 94d06ec a52daf9
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 13:36:06 2017 -0500
+
+    Merge pull request #2 from javamirier/dev
+    
+    test for newline and dev branch
+
+commit a52daf97fa09c4868254304e7ad29e6e251cec6e
+Author: AmirJ <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 13:34:01 2017 -0500
+
+    test for newline and dev branch
+
+commit 94d06ec6256f25d9353329a529dd45fd6963a8f2
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 13:18:14 2017 -0500
+
+    Update index.html
+
+commit adca807ff91c304691da3cfaa6ad5463924e2eda
+Merge: 50290e7 c370e65
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 12:52:31 2017 -0500
+
+    Merge pull request #1 from javamirier/dev
+    
+    Create index.html
+
+commit c370e655e885b43c79651107d68aea4617afa022
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 12:52:21 2017 -0500
+
+    Create index.html
+
+commit 50290e7491ade77613691e930956073273d6d196
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 12:49:58 2017 -0500
+
+    Added CNAME file for custom domain (cs329project3.me)
+
+commit 661cad95511c0907648692559cfae68de362830f
+Author: javamirier <college.amir.javeri@gmail.com>
+Date:   Wed Mar 22 12:49:57 2017 -0500
+
+    Initial commit
