@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		
+    <meta charset='UTF-8'>
+
+    <style>
+    
+
+    body, html {
+        height: 100%;
+    }
+
+    .parallax {
+        /* The image used */
+        background-image: url('../static/images/project3splash.jpg');
+
+        /* Full height */
+        height: 100%; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+    @media only screen and (max-device-width: 1024px) {
+        .parallax {
+            background-attachment: scroll;
+        }
+    }
+    </style>
+</head>
+<body style="background-color:rgba(0,0,0,0.1)">
+
+
+
+    <p style="text-align: center" class ="parallax">
+	<a href={{ url_for('about') }} class="btn btn-primary">About</a>
+    <a href={{ url_for('brandindex') }} class="btn btn-primary">Brands</a>
+    <a href={{ url_for('modelindex') }} class="btn btn-primary">Models</a>
+    <a href={{ url_for('classindex') }} class="btn btn-primary">Classes</a>
+</p>
+</body>
+</html>

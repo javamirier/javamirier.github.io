@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Mercedes-Benz Sprinter</title>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		<!-- Navbar styles -->
+		<link rel="stylesheet" href="details.css">		
+	</head>
+	<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('index')}}>CarsCarsCars</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('about')}}>About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('brandindex')}}>Brands</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href={{url_for('modelindex')}}>Models<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('classindex')}}>Classes</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+		<tbody>
+			<tr>
+				<td colspan="6">
+					<div class="header">
+						<a href=http://www.mbvans.com/sprinter/home>
+							<img src=http://st.motortrend.com/uploads/sites/10/2015/11/2015-mercedes-benz-sprinter-passenger-van-angular-front.png style="max-width:325px; max-height:500px">				
+							</img>
+						</a>
+						<h1>Mercedes-Benz Sprinter</h1>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="1" colspan="6">
+					<div class="details">
+						<p>The Mercedes-Benz Sprinter is a vehicle built by Daimler AG of Stuttgart, Germany as a van, chassis cab, minibus, and pickup truck. In the past the Sprinter has been sold under the Mercedes-Benz, Dodge, Freightliner, and Volkswagen nameplates. In the United States it is built from complete knock down (CKD) kits by Freightliner. They are now primarily marketed by Mercedes-Benz. Rebadged and re-engined Sprinters are also sold by Volkswagen Commercial Vehicles as the Volkswagen LT and the Volkswagen Crafter.</p>
+						</hr> 
+						<p><a href="https://en.wikipedia.org/wiki/Mercedes-Benz_Sprinter">Source</a></p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="details">
+						<h3>Manufacturer</h3>
+						<p><a href={{url_for('brandMBDetails')}}>Mercedes-Benz</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Class</h3>
+						<p><a href={{url_for('classVan')}}>Van</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Base MSRP</h3>
+						<p>$32,495</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Average MPG</h3>
+						<p>Up to 11 city / 17 highway</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Drive Description</h3>
+						<p>Front or All-Wheel Drive</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Production Run</h3>
+						<p>1995-present</p>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</html>

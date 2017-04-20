@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Volkswagen Jetta</title>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		<!-- Navbar styles -->
+		<link rel="stylesheet" href="details.css">		
+	</head>
+	<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('index')}}>CarsCarsCars</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('about')}}>About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('brandindex')}}>Brands</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href={{url_for('modelindex')}}>Models<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('classindex')}}>Classes</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+		<tbody>
+			<tr>
+				<td colspan="6">
+					<div class="header">
+						<a href=http://www.vw.com/models/jetta/section/colors/?ssem=ssem_XxWHHIvB_120404331786_c&gclid=CLqVjZXJkNMCFQuTaQodX3AJ4Q&mkwid=sXxWHHIvB_120404331786_vw%2520jetta_e_c&mtid=901kjf6786&slid=&product_id=>
+							<img src=https://www.vw.com/content/dam/vwcom/subtrimImages/trimFamily/Jet-16-S-technology.png style="max-width:325px; max-height:500px">				
+							</img>
+						</a>
+						<h1>Volkswagen Jetta</h1>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="1" colspan="6">
+					<div class="details">
+						<p>The Volkswagen Jetta is a compact car/small family car produced by the German manufacturer Volkswagen since 1979. Positioned to fill a sedan niche above the firm's Golf hatchback offering, it has been marketed over six generations variously as the Atlantic, Fox, Vento, Bora, City Jetta, Jetta City, GLI, Jetta, Clasico, Voyage, and Sagitar.</p>
+						</hr> 
+						<p><a href="https://en.wikipedia.org/wiki/Volkswagen_Jetta">Source</a></p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="details">
+						<h3>Manufacturer</h3>
+						<p><a href={{url_for('brandVWDetails')}}>Volkswagen</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Class</h3>
+						<p><a href={{url_for('classSedan')}}>Sedan</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Base MSRP</h3>
+						<p>$17,895</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Average MPG</h3>
+						<p>Up to 28 city / 40 highway</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Drive Description</h3>
+						<p>Front-Wheel Drive</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Production Run</h3>
+						<p>1979-Present</p>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</html>

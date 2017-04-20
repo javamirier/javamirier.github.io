@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>BMW Details</title>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		<!-- Navbar styles -->
+		<link rel="stylesheet" href="details.css">		
+	</head>
+	<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('index')}}>CarsCarsCars</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('about')}}>About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href={{url_for('brandindex')}}>Brands<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('modelindex')}}>Models</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('classindex')}}>Classes</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+		<tbody>
+			<tr>
+				<td colspan="3">
+					<div class="header">
+						<a href=http://www.bmwusa.com>
+							<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/1015px-BMW.svg.png style="max-width:125px; max-height:125px">								
+							</img>
+						</a>
+						<h1>BMW</h1>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="1" colspan="3">
+					<div class="details">
+						<p>Bayerische Motoren Werke AG (German for Bavarian Motor Works), usually known under its abbreviation BMW, is a German luxury vehicle, motorcycle, and engine manufacturing company founded in 1916. It is one of the best-selling luxury automakers in the world. The company is a component of the Euro Stoxx 50 stock market index. Headquartered in Munich, Bavaria, BMW owns Mini cars and is the parent company of Rolls-Royce Motor Cars. BMW produces motorcars under the BMW Motorsport division and motorcycles under BMW Motorrad, and plug-in electric cars under the BMW i sub-brand and the "iPerformance" model designation within the regular BMW lineup.</p>
+						</hr> 
+						<p><a href="https://en.wikipedia.org/wiki/BMW">Source</a></p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="details">
+						<h3>Founded</h3>
+						<p>March 7, 1916</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>2016 Revenue</h3>
+						<p>$103.8 billion</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Country of Origin</h3>
+						<p>Germany</p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<div class="details">
+						<h3>Models</h3>
+						<p><a href={{url_for('modelBMWI3')}}>i3</a></p>
+						<p><a href={{url_for('modelBMWM4')}}>M4</a></p>
+						<p><a href={{url_for('modelBMWX1')}}>X1</a></p>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</html>

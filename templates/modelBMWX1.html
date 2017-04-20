@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>BMW X1</title>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		<!-- Navbar styles -->
+		<link rel="stylesheet" href="details.css">		
+	</head>
+	<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('index')}}>CarsCarsCars</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('about')}}>About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('brandindex')}}>Brands</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href={{url_for('modelindex')}}>Models<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('classindex')}}>Classes</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+		<tbody>
+			<tr>
+				<td colspan="6">
+					<div class="header">
+						<a href=https://www.bmwusa.com/vehicles/xmodels/x1.html>
+							<img src=http://a2.dealerimages.dealereprocess.com/image/upload/c_limit,f_auto,fl_lossy,w_300/v1/svp/Colors_PNG1280/2016/16bmw/16bmwx1xlineod2b/bmw_16x1xlineod2b_angularfront_mineralwhitemetallic style="max-width:325px; max-height:500px">				
+							</img>
+						</a>
+						<h1>BMW X1</h1>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="1" colspan="6">
+					<div class="details">
+						<p>The BMW X1 is a compact luxury crossover SUV manufactured and marketed worldwide by BMW since 2009. The first generation model, based on the BMW 3-Series, was available with rear-wheel-drive (sDrive) and all-wheel-drive (xDrive) configurations. The second generation, based on BMW's compact UKL platform, is available with front-wheel-drive (sDrive) and all-wheel-drive (xDrive).</p>
+						</hr> 
+						<p><a href="https://en.wikipedia.org/wiki/BMW_X1">Source</a></p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="details">
+						<h3>Manufacturer</h3>
+						<p><a href={{url_for('brandBMWDetails')}}>BMW</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Class</h3>
+						<p><a href={{url_for('classSUV')}}>SUV</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Base MSRP</h3>
+						<p>$33,100</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Average MPG</h3>
+						<p>Up to 23 city / 32 highway</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Drive Description</h3>
+						<p>Front or All-Wheel Drive</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Production Run</h3>
+						<p>2009-present</p>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</html>

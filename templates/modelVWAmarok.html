@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Volkswagen Amarok</title>
+
+		<!-- Google Font -->
+		<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,600" rel="stylesheet">
+	    
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+	    
+		<!-- Navbar styles -->
+		<link rel="stylesheet" href="details.css">		
+	</head>
+	<nav class="navbar navbar-light bg-faded">
+			<a class="navbar-brand" href="#"></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('index')}}>CarsCarsCars</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('about')}}>About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('brandindex')}}>Brands</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href={{url_for('modelindex')}}>Models<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href={{url_for('classindex')}}>Classes</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="table-container">
+		<table id="table" class="table table-hover table-striped">
+		<tbody>
+			<tr>
+				<td colspan="6">
+					<div class="header">
+						<a href=https://www.volkswagen-vans.co.uk/range/amarok>
+							<img src=https://www.vw-nutzfahrzeuge.at/media/PoiTools_Kwc_Model_Variant_Image_Component/73-model-1389-image/dh-810-83f0a5/770e05cb/1485336427/amarok-v6-comfortline.jpg style="max-width:325px; max-height:500px">				
+							</img>
+						</a>
+						<h1>Volkswagen Amarok</h1>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td rowspan="1" colspan="6">
+					<div class="details">
+						<p>The Volkswagen Amarok is a pickup truck produced by Volkswagen Commercial Vehicles (VWCV) since 2010. It is a traditional body-on-frame truck with double-wishbone suspension at the front and leaf springs at the rear.[5] The Amarok range consists of single cab and double cab, combined with either rear-wheel drive or 4motion four-wheel-drive, and is powered by turbocharged gasoline or turbocharged direct injection (TDI) diesel engines. VWCV considers the Toyota Hilux, Nissan Navara, Mitsubishi Triton, Ford Ranger and Chevrolet/Holden Colorado/S-10 to be Amarok competitors, although it is larger.</p>
+						</hr> 
+						<p><a href="https://en.wikipedia.org/wiki/Volkswagen_Amarok">Source</a></p>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="details">
+						<h3>Manufacturer</h3>
+						<p><a href={{url_for('brandVWDetails')}}>Volkswagen</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Class</h3>
+						<p><a href={{url_for('classPickup')}}>Pickup</a></p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Base MSRP</h3>
+						<p>$31,920</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Average MPG</h3>
+						<p>Up to 20 city / 29 highway</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Drive Description</h3>
+						<p>Front or All-Wheel Drive</p>
+					</div>
+				</td>
+				<td>
+					<div class="details">
+						<h3>Production Run</h3>
+						<p>2010-Present</p>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</div>
+</html>
